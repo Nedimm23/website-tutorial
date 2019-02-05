@@ -64,29 +64,32 @@ p{
 }
 .thirdpart{
     background-image: url("./assets/photo-1452723312111-3a7d0db0e024.jpg");
-    height: 100vh;
+    height: 70vh;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-}
+    padding-top: 80px; 
+    padding-bottom: 100px;
+    }
 .thirdpart .thirdpart-content{
-    padding-top: 20%;
+    padding-top: 10%;
        margin:0 auto;
 }
 .thirdpart h1{
     color: #fff;
     text-align: center;
-    margin-bottom: 25px;
+    margin-bottom: 40px;
     font-size: 60px;
     width: 50%;
     margin: 0 auto;
-    margin-bottom: 20px;
 }
 .thirdpart h4{
     color: #fff;
     font-size: 14px;
     text-align: center;
     margin-bottom: 15px;
+    width: 50%;
+    margin:0 auto;
 }
 .thirdpart-content-buttons{
     text-align: center;

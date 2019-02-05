@@ -33,3 +33,67 @@
     background-color: transparent;
     border: 2px solid #fff;
 }
+.firstpart{
+    padding: 100px 0;       
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.firstpart img{
+    height: 400px;
+    width: 600px;
+}
+.firstpart h4{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+    font-weight: 200;
+}
+.secondpart{
+    padding-top: 80px; 
+    padding-bottom: 100px;
+    background-color:#f5f5f5;
+  }
+.secondpart img{
+    height: 400px;
+    width: 600px;
+}
+.secondpart h4{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+    font-weight: 200;
+}
+.thirdpart{
+    background-image: url("./assets/photo-1452723312111-3a7d0db0e024.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.thirdpart .thirdpart-content{
+    padding-top: 20%;
+       margin:0 auto;
+}
+.thirdpart h1{
+    color: #fff;
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 60px;
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.thirdpart h4{
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.thirdpart-content-buttons{
+    text-align: center;
+    margin-top: 20px;
+}
+.thirdpart-content-buttons button{
+    width:200px;
+    background-color: transparent;
+    border: 2px solid #fff;
+}

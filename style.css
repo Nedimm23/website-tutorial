@@ -105,7 +105,6 @@ p{
     background-position: center;
     background-repeat: no-repeat;
     padding-top: 80px; 
-    padding-bottom: 100px;  
     background-color:#f5f5f5;
    }
 .fourthpart h4{
@@ -129,6 +128,24 @@ p{
     width: 100%;
     padding-top: 20px;
 }
-.fifthpart{
-    background-color: black;
+.fifthpart {
+    background-color:#0e1015;);
+
+}
+.images img{
+    height: 200px;
+    width: 100%;
+}
+.fifthpart h4{
+    text-align: center;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 40px;
+    font-size: 30px;
+    }
+.fifthpart p{
+    text-align: center;
+    color: white;
+    padding-bottom: 20px;
+    font-size: 14px;
 }

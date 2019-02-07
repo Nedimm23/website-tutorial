@@ -17,7 +17,7 @@
     width: 50%;
     margin: 0 auto;
     margin-bottom: 20px;
-}
+    }
 .home h4{
     color: #fff;
     font-size: 14px;
@@ -129,7 +129,7 @@ p{
     padding-top: 20px;
 }
 .fifthpart {
-    background-color:#0e1015;);
+    background-color:#0e1015;
 
 }
 .images img{
@@ -149,3 +149,64 @@ p{
     padding-bottom: 20px;
     font-size: 14px;
 }
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: black;
+  }
+  
+  .test:hover .overlay {
+    opacity: 0.5;
+  }
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }  
+  .carusel-container{
+      background-image: url("./assets/carusel.jpg");
+      height: 100%; 
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      }
+ .carusel-container .carusel-img{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    margin-bottom: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.carusel-container h4{    
+        text-align: center;
+        color: white;
+        padding-top: 100px;
+        padding-bottom: 10px;
+        font-size: 30px;        
+}    
+.carusel-container p{
+    text-align: center;
+    color: white;
+    padding-bottom: 20px;
+    font-size: 14px;
+    text-align: center;
+    width: 50%;
+    margin:40px auto;
+} 
+
+ 
